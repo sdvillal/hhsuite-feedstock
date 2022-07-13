@@ -6,7 +6,8 @@ package:
   version: {{ version }}
 
 build:
-  number: 5
+  number: 6
+  skip: True  # [win]
 
 source:
   url: https://github.com/soedinglab/hh-suite/archive/v{{ version }}.tar.gz
